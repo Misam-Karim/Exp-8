@@ -13,7 +13,7 @@ int getStringLength(char str[]) {
 int main() {
     char String[100];
     printf("Enter a string: ");
-    fgets(myString, 100, stdin);
+    gets(String);
     // Call the custom function
     int len = getStringLength(String);
     printf("The length of the string is: %d\n", len);
